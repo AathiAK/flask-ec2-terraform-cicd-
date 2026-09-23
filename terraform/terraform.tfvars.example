@@ -1,0 +1,9 @@
+# Copy this file to terraform.tfvars and fill in your values
+# terraform.tfvars should be added to .gitignore
+
+aws_region      = "us-east-1"
+project_name    = "flask-app"
+environment     = "dev"
+instance_type   = "t2.micro"
+ssh_key_name    = "your-key-pair-name"  # Must exist in AWS
+s3_bucket_name  = "flask-app-bucket-unique-name"  # Must be globally unique
